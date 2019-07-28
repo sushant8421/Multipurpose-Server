@@ -8,16 +8,6 @@ compile using : gcc client_new.c -o client_new -pthread
 run by : ./client_new
 
 
-header files used are : 
-
-#include<stdio.h>
-#include<string.h>    //strlen
-#include<stdlib.h>    //strlen
-#include<sys/socket.h>
-#include<arpa/inet.h> //inet_addr
-#include<unistd.h>    //write
-#include<pthread.h>   //for threading , link with lpthread
-
 1.Server is providing some services that will be send to client when it will connect to server using connect()
 funtion.There can be more than one client that can access the same server at same time , the client is authenticated using password , server has provided some predefined password to authorised users.
 
