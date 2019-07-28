@@ -1,9 +1,12 @@
 # Multipurpose-Server
 # Implementing services like 1.Echo request reply 2.Application layer RTT measurement 3.File upload
 
+In one tab :
 compile using : gcc server_new.c -o server_new -pthread
 
 run by : ./server_new
+
+In new tab parallely :
 
 compile using : gcc client_new.c -o client_new -pthread
 
